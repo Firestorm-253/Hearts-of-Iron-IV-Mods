@@ -1,0 +1,172 @@
+last_date = "1945.1.1"
+
+tests = {
+    JAP_takes_beijing_by_1939 = {
+        acceptable_fail_rate = 0.3
+        success = {
+            date < "1939.1.1"
+            608 = { # Beijing
+                is_controlled_by = JAP
+            }
+        }
+
+        fail = {
+            date > "1939.1.1"
+        }
+    }
+
+    JAP_takes_nanjing_by_1941 = {
+        acceptable_fail_rate = 0.3
+        success = {
+            date < "1941.1.1"
+            613 = { # Nanjing
+                is_controlled_by = JAP
+            }
+        }
+
+        fail = {
+            date > "1941.1.1"
+        }
+    }
+
+    JAP_takes_guangzhou_by_1943 = {
+        acceptable_fail_rate = 1.0 #This is actually desired now, but I still want to see how often it happens
+        success = {
+            date < "1943.1.1"
+            592 = { # Guangzhou
+                is_controlled_by = JAP
+            }
+        }
+
+        fail = {
+            date > "1943.1.1"
+        }
+    }
+
+    JAP_defends_korea_until_1942 = {
+        success = {
+            date > "1942.1.1"
+        }
+
+        fail = {
+            date < "1942.1.1"
+            527 = { # North Korea
+                NOT = { is_controlled_by = JAP }
+            }
+        }
+    }
+
+    JAP_design_garrison = {
+         success = {
+             date > "1939.1.1"
+             date < "1945.1.1"
+             JAP = { ai_has_role_template = garrison }
+         }
+
+         fail = {
+            date > "1941.1.1"
+         }
+    }
+
+    JAP_has_early_war_with_china = {
+        success = {
+            JAP = { has_war_with = CHI }
+        }
+
+        fail = {
+            date > "1939.1.1"
+        }
+    }
+
+    JAP_at_war_with_uk = {
+        success = {
+            JAP = { has_war_with = ENG }
+        }
+        fail = {
+            date > "1948.6.6"
+        }
+    }
+
+    JAP_capitulated = {
+        success = {
+            JAP = {
+                OR = {
+                    has_capitulated = yes
+                    exists = no
+                }
+            }
+        }
+        fail = {
+            date > "1948.6.6"
+        }
+    }
+
+    JAP_capitulated_too_early = {
+        acceptable_fail_rate = 0.2
+        success = {
+            date > "1944.1.1"
+        }
+        fail = {
+            date < "1944.1.1"
+            JAP = {
+                OR = {
+                    has_capitulated = yes
+                    exists = no
+                    is_subject_of = USA
+                }
+            }
+        }
+    }
+
+    JAP_invaded_indonesia = {
+        acceptable_fail_rate = 0.5
+        success = {
+            JAP = {
+                has_war_with = "INS"
+            }
+            "INS" = {
+                any_owned_state = {
+                    is_controlled_by = JAP
+                }
+            }
+        }
+        fail = {
+            date > "1943.6.6"
+        }
+    }
+
+    JAP_casualties_are_ok = {
+        acceptable_fail_rate = 0.1
+        success = {
+            date > "1940.1.1"
+            JAP = {
+                casualties < 1500000
+            }
+        }
+        fail = {
+            date < "1940.1.2"
+            JAP = {
+                casualties > 1500000
+            }
+        }
+    }
+
+    JAP_homeland_invaded_by_usa_too_early = {
+        acceptable_fail_rate = 0.2
+        success = {
+            date > "1943.1.1"
+        }
+        fail = {
+            date < "1943.1.1"
+            JAP = {
+                has_war_with = USA
+            }
+            JAP = {
+                any_owned_state = {
+                    is_island_state = no
+                    is_controlled_by = USA
+                }
+            }
+        }
+    }
+}

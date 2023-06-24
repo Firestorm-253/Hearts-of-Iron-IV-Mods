@@ -1,0 +1,640 @@
+manpower 100000
+manpower 10000000
+exp 1000
+ep 1000
+xp 1000
+pp 1000
+pp 10000
+stab 10
+pp 10000
+xp 1000
+manpower 10000000
+pp 2000
+xp 1000
+humans 1000
+humans 85000000
+humans 850000
+xp 1000
+pp 2000
+manpower 10000
+manpower 100000
+manpower 1000000
+manpower 10000000
+pp 2000
+instantconstruction
+xp 1000
+instantconstruction
+allowdiplo
+instantconstruction
+allowdiplo
+instantconstruction
+allowdplo yesman
+allowdiplo yesman
+yesman
+allowdiplo
+pp 2000
+instantconstruction
+tag ENG
+whitepeace DE
+whitepeace
+whitepeace FR
+whitepeace GER
+add_equipment
+add_equipment 10
+add_equipment infantry_uniforms 10
+add_equipmen 10t infantry_uniforms
+add_equipmen 1t infantry_uniforms
+add_equipmen 10 infantry_uniforms
+add_equipment 10 infantry_uniforms
+add_equipment 10 infantry_uniforms_0
+add_equipment 100000 infantry_uniforms_0
+add_equipment 100000 HQ_equipment_0
+add_equipment 100000 mount_equipment_0
+add_equipment 100000 horse_equipment_0
+add_equipment 100000 motorized_equipment_2
+add_equipment 100000 motorized_AC_equipment_8 B
+add_equipment 100000 motorized_AC_equipment_08 B
+add_equipment 100000 motorized_lia_equipment_03
+add_equipment 100000 panzer_ii_equipment_3
+add_equipment 100000 panzer_iv_equipment_2
+add_equipment 100000 me_109_late_fighter_equipment_1
+add_equipment 100000 me_109_mid_fighter_equipment_1
+add_equipment 100000 railartillery_equipment_1
+add_equipment 100000 submarine
+add_equipment 100000 support_equipment_1
+add_equipment 100000 infantry_equipment_03
+add_equipment 100000 infantry_equipment_3
+add_equipment 100000 infantry_equipment_1
+add_equipment 100000 infantry_equipment_2
+add_equipment 100000 infantry_equipment_3
+add_equipment 100000 GER_infantry_equipment_3
+add_equipment 100000 GER_infantry_equipment_2
+add_equipment 100000 GER_infantry_equipment_1
+add_equipment 100000 GER_infantry_equipment_0
+yesman
+allowdiplo
+yesman
+add_equipment 100000 nbfz_equipment_1
+add_equipment 100000 medium_assault_gun_equipment
+add_equipment 100000 panzer_ii_ag_equipment_1
+add_equipment 100000 panzer_iii_ag_equipment_1
+instantconstruction
+allowdiplo
+yesman
+allowdiplo
+yesman
+pp 2000
+allowdiplo
+yesman
+instantconstruction
+yesman
+xp 1000
+instantconstruction
+yesman
+instantconstruction
+yesman
+instantconstruction
+yesman
+allowdiplo
+yesman
+allowdiplo
+yesman
+allowdiplo
+add_equipment 100000 me_109_late_fighter_equipment_1
+add_equipment 100000 me_109_late_fighter_equipment_1 A
+allowdiplo
+yesman
+allowdiplo
+yesman
+instantconstruction
+allowdiplo
+yesman
+allowdiplo
+pp 1000
+instantconstruction
+yesman
+instantconstruction
+yesman
+instantconstruction
+allowdiplo
+yesman
+allowdiplo
+
+allowdiplo
+yesman
+allowdiplo
+yesman
+allowdiplo
+instantconstruction
+xp 1000
+add_equipment 100000 panzer_vi_equipment_1
+xp 1000
+add_equipment 100000 panzer_iv_equipment_6_Final
+add_equipment 10000 panzer_vii_equipment_1
+allowdiplo
+instantconstruction
+allowdiplo
+add_equipment 10 do_23_bomber_equipment
+add_equipment 10 do_23_bomber_equipment_1
+add_equipment 100000 panzer_iv_equipment_6_Final
+yesman
+addopinion USA
+addopinion
+pp 2000
+yesman
+xp 1000
+add_equipment 100000 motorized_AC_equipment_099_Final
+pp 2000
+allowdiplo
+yesman
+allowdiplo
+add_equipment 100000 me_1101_fighter_equipment_1_Final
+instantconstruction
+xp 1000
+add_equipment 100000 panzer_vii_equipment_3_Final
+xp 1000
+add_equipment 100000 panzer_iii_ag_equipment_3_Final
+xp 1000
+add_equipment 100000 panzer_iv_ag_equipment_2_Final
+xp 1000
+add_equipment 100000 panzer_e_equipment_1_Final
+add_equipment 100000 jet_strat_bomber_ger_equipment_1_Final
+xp 1000
+allowdiplo
+tdebug
+spawn modern_armor 6521 1
+-debug
+tdebug
+spawn rocket_artillery_brigade 9943 72
+annex bra
+pp 2000
+instantconstruction
+annex can
+annex mex
+annex col
+annex ven
+annex pru
+annex ecu
+annex cbu
+annex cub
+annex gua
+annex hon
+annex els
+annex nic
+annex cos
+annex pan
+annex hol
+annex fra
+annex bol
+annex par
+annex arg
+annex chl
+annex urg
+annex den
+/ae 1000 artillery_equipment_1
+ae 1000 artillery_equipment_1
+ae 100000 infantry_equipment_3
+updateequipments
+
+ae 100000 infantry_equipment_3
+instantconstruction
+ae 10000 artillery_equipment_3
+ae 10000 mechanized_equipment_3
+ae 10000 mechanized_equipment_1
+
+ae 10000 mechanized_equipment_1
+ae 10000 infantry_equipment_3
+
+ae 10000 infantry_equipment_3
+ae 100000 infantry_equipment_3
+spectate
+observ
+observer
+observe
+observe de
+instantready
+instant_ready
+instant ready
+annex jpa
+annex jap
+pp 20000
+observe
+ae 10000 AST_modern_tank_equipment_1
+ae 10000 modern_tank_equipment_1
+ae 10000 modern_tank_equipment
+ae 10000 AST_modern_tank_equipment
+ae 10000 USA_modern_tank_aa_equipment_1
+ae 10000 USA_modern_tank_equipment_1
+ae 10000 USA_modern_tank_equipment
+ae 10000 USA_heavy_tank_equipment
+ae 10000 USA_heavy_tank_equipment_1
+ae 10000 heavy_tank_equipment_1
+ae 10000 modern_tank_equipment_1
+ae 10000 modern_tank_equipment
+ae 10000 modern_tank_equipment_1
+research all
+ae 10000 modern_tank_equipment_1
+ae 10000 USA_heavy_tank_equipment_1
+ae 10000 modern_tank_equipment_1
+ae 10000 USA_heavy_tank_equipment_1
+ae 100000 modern_tank_equipment_1
+observe
+manpower 10000000
+annex gb
+annex eng
+ae 100000 motorized_equipment_2
+ae 100000 motorized_equipment
+ae 100000 motorized_equipment_1
+ae 100000 mechanized_equipment_2
+ae 100000 support_equipment_3
+ae 100000 support_equipment_2
+ae 100000 support_equipment_1
+ae 100000 anti_tank_equipment_1
+ae 100000 anti_tank_equipment_5
+ae 100000 anti_tank_equipment_4
+ae 100000 anti_tank_equipment_3
+ae 100000 anti_air_equipment_3
+ae 100000 artillery_equipment_3
+ae 100000 heavy_tank_equipment_3
+ae 100000 medium_tank_equipment_3
+ae 100000 light_tank_equipment_3
+ae 100000 weapon_equipment_3
+ae 100000 infantry_equipment_3
+observe
+ae 100000 medium_sfl_equipment_3
+ae 100000 heavy_tank_artillery_equipment_3
+ae 100000 light_tank_artillery_equipment_3
+ae 100000 heavy_tank_artillery_equipment_3
+ae 100000 light_tank_artillery_equipment_3
+ae 100000 medium_tank_artillery_equipment_3
+observe
+manpower 10000000
+observe
+pp 2000
+observe
+annex bel
+
+pp 100
+annex mal
+spectator
+annex por
+tdebug
+spectator
+ae 100000 motorized_equipment_1
+ae 100000 mechanized_equipment_2
+ae 100000 support_equipment_3
+ae 100000 support_equipment_2
+ae 100000 support_equipment_1
+ae 100000 artillery_equipment_3
+ae 100000 infantry_equipment_3
+ae 100000 modern_tank_equipment_3
+ae 100000 modern_tank_equipment
+ae 100000 modern_tank_equipment_1
+ae 100000 heavy_tank_equipment_3
+ae 100000 medium_tank_equipment_3
+ae 100000 anti_tank_equipment_3
+ae 100000 light_tank_equipment_3
+ae 100000 anti_tank_equipment_3
+observe
+pp 1000
+observe
+instantconstruction
+instantresearch
+instantconstruction
+research_on_icon_click
+observe
+research_on_icon_click
+observe
+allowdiplo
+observe
+allowdiplo
+observe
+research al
+research all
+manpower 1000000
+observe
+instantconstruction
+observe
+ae 100000 infantry_equipment_3
+ae 100000 artillerie_equipment_3
+ae 100000 support_equipment_3
+ae 100000 support_equipment
+ae 100000 support_equipment_2
+ae 100000 support_equipment_1
+ae 100000 artillery_equipment_3
+observe
+allowdiplo
+observe
+pp 100000
+observe
+stab 30
+stab
+observe
+pp 100000
+observe
+annex IRK
+debug
+
+annex IRQ
+annex SYR
+debug
+observe
+pp 100000
+allowdiplo
+observe
+allowdiplo
+observe
+manpower 100000
+manpower 1000000
+allowdiplo
+pp 100000
+allowdiplo
+observe
+spawn
+observe
+research all
+observe
+pp 100000
+observe
+pp 100000
+observe
+allowdiplo
+observe
+pp 100000
+observe
+research
+research at
+research_on_icon_click
+xp 4
+research_on_icon_click
+allowdiplo
+tp
+pp 500
+tp
+yes_ai
+ai_yes
+yesman
+research_on_icon_click
+xp 0
+xp -100
+manpower 1000000
+
+manpower 1000000
+xp 25
+xp 2
+xp 25
+xp -100
+xp - 100
+xp -100
+xp 50
+xp -50
+xp +50
+xp -50
+research_on_icon_click
+yesman
+research_on_icon_click
+pp 150
+research_on_icon_click
+pp 150
+research_on_icon_click
+pp 150
+research_on_icon_click
+tp
+xp 200
+research_on_icon_click
+yesman
+research_on_icon_click
+allowdiplo
+manpower 1000000
+yesman
+tp
+yesman
+research all
+observe
+xp
+observe
+event bismarck.1
+event bismarck.2
+observe
+research all
+gui
+get_var new_scripted_gui_window_visible
+set_var new_scripted_gui_window_visible 1
+set_var new_scripted_gui_window_visible 0
+get_var new_scripted_gui_window_visible
+set_var new_scripted_gui_window_visible 0
+set_var new_scripted_gui_window_visible 1
+set_var new_scripted_gui_window_visible 0
+get_var new_scripted_gui_window_visible
+has_country_flag = open_my_new_gui
+get_var num_equipment
+get_var num_equipment@infantry_equipment
+gui
+get_var num_equipment@support_equipment
+get_var temp_amount
+get_var num_equipment@infantry_equipment
+research all
+get_var temp_amount
+research all
+get_var num_equipment@light_tank_equipment
+get_var num_equipment@light_gun_equipment
+get_var temp_amount
+get_var previous_round
+pp -2100
+get_var num_equipment@light_tank_equipment
+reload
+reloadsupply
+event bismarck.1
+event bismarck.2
+bismarck.2
+event bismarck.2
+add_ideas GER_empower_bismarck
+add_ideas GER_empower_bismrack
+event bismarck.2
+remove_ideas GER_empower_bismrack
+add_ideas GER_empower_bismrack
+event bismarck.2
+add_ideas GER_empower_bismrack
+remove_ideas GER_empower_bismrack
+add_ideas GER_empower_bismrack
+allowdiplo
+event bismarck.2
+remove_ideas GER_empower_bismrack
+add_ideas GER_empower_bismrack
+event bismarck.2
+instantconstruction
+research all
+instantconstruction
+yesman
+add_ideas empower_bismarck_idea
+research_all
+researchall
+research all
+add_ideas empower_bismarck_idea
+research all
+add_ideas empower_ship_hull_heavy_2
+add_ideas empower_ship_hull_heavy_3
+research all
+add_ideas empower_ship_hull_heavy_1
+research all
+add_ideas empower_ship_hull_heavy
+add_ideas empower_ship_hull_heavy_1
+add_ideas empower_ship_hull_heavy_2
+add_ideas empower_ship_hull_heavy_3
+research all
+add_ideas empower_ship_hull_heavy
+remove_ideas empower_ship_hull_heavy
+add_ideas empower_ship_hull_heavy
+remove_ideas empower_ship_hull_heavy
+add_ideas empower_ship_hull_heavy
+remove_ideas empower_ship_hull_heavy
+add_ideas empower_GER_battleship_3
+remove_ideas empower_GER_battleship_3
+add_ideas empower_ship_hull_heavy
+remove_ideas empower_ship_hull_heavy
+add_ideas empower_GER_battleship_3
+remove_ideas empower_GER_battleship_3
+add_ideas empower_battleship_3
+remove_ideas empower_battleship_3
+event bismarck.2
+add_ideas empower_GER_battleship
+event bismarck.2
+add_ideas empower_GER_battleship
+research all
+event bismarck.2
+remove_ideas empower_GER_battleship
+event bismarck.1
+research all
+event bismarck.1
+event bismarck.2
+event bismarck.1
+event bismarck.2
+event bismarck.1
+event bismarck.2
+remove_ideas GER_project_bismarck
+event bismarck.2
+event bismarck.1
+event bismarck.2
+event bismarck.1
+event bismarck.2
+event bismarck.1
+event bismarck.2
+remove_ideas GER_project_bismarck
+research all
+instantconstruction
+allowdiplo
+annex sov
+instantconstruction
+instantconstruction$
+instantconstruction
+manpower 100000
+manpower 1000000
+observe
+remov_ ideas GLOBAL_aircraft_rebalance
+remove_ ideas GLOBAL_aircraft_rebalance
+remove_ ideas = GLOBAL_aircraft_rebalance
+remove_idea a
+remove_idea
+remove_ideas
+remove_ideas GLOBAL_aircraft_rebalance
+add_ideas GLOBAL_aircraft_rebalance
+remove_ideas GLOBAL_aircraft_rebalance
+add_ideas GLOBAL_aircraft_rebalance
+remove_ideas GLOBAL_aircraft_rebalance
+add_ideas GLOBAL_aircraft_rebalance
+remove_ideas GLOBAL_aircraft_rebalance
+add_ideas GLOBAL_aircraft_rebalance
+research_at_click
+research_on_click
+research_on_icon_click
+observe
+research_on_icon_click
+research_at 1
+research_at
+research_at_slot
+research_at_slot 1
+research_slot
+research_slot 1
+research_on_icon_click
+observe
+remove_ideas GER_aircraft_rebalance
+add_ideas GER_aircraft_rebalance
+add_ideas USA_aircraft_rebalance
+remove_ideas USA_aircraft_rebalance
+remove_ideas GER_aircraft_rebalance
+add_ideas GER_aircraft_rebalance
+observe
+remove_ideas USA_aircraft_rebalance
+add_ideas USA_aircraft_rebalance
+manpower 800000
+pp 300
+pp -100
+focus.autocomplete
+focus.nochecks
+focus.autocomplete
+annex JUG
+debug
+annex YUG
+manpower 10000
+manpower 100000
+observe
+pp 100
+observe
+yesman
+observe
+yesman
+observe
+research all
+observe
+
+observe
+xp
+observe
+yesman
+observe
+yesman
+observe
+yesman
+observe
+research_on_icon_click
+observe
+add_equipment 100 convois
+add_equipment 100 convoi
+add_equipment 100
+add_equipment 100convoy
+add_equipment 100 convoy
+observe
+research_on_icon_click
+manpower 10000
+manpower 100000
+observe
+xp
+tp
+yesman
+observe
+reload
+reloadtechnologies
+reloadinterface
+research all
+pp 30
+pp 50
+pp 200
+pp 50
+pp 60
+pp 200
+yesman
+pp 60
+pp 30
+yesman
+pp 60
+pp 200
+observe
+research_on_icon_click
+pp 1000
+allowdiplo
+research all
+observe
+spectator
+observe
+fow
+research all

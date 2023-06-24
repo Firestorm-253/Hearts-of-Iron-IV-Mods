@@ -1,0 +1,74 @@
+"symlink"
+{
+}
+"run process"
+{
+	"x86 1"
+	{
+		"Process"		"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared\\_CommonRedist\\vcredist\\2010\\vcredist_x86.exe"
+		"Command"		"/quiet /norestart"
+		"description"		"Microsoft VC Redist Package"
+		"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2010"
+		"RunKeyName"		"x86"
+		"MinimumHasRunValue"		"1"
+		"ignoreexitcode"		"0"
+		"ValidExitCodes"		"1638"
+		"RunType"		"0"
+		"Sequence"		"0"
+		"Environment"
+		{
+			"appid"		"394360"
+		}
+	}
+	"x64 1"
+	{
+		"Process"		"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared\\_CommonRedist\\vcredist\\2010\\vcredist_x64.exe"
+		"Command"		"/quiet /norestart"
+		"description"		"Microsoft VC Redist Package"
+		"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2010"
+		"RunKeyName"		"x64"
+		"MinimumHasRunValue"		"1"
+		"ignoreexitcode"		"0"
+		"ValidExitCodes"		"1638"
+		"RunType"		"0"
+		"Sequence"		"1"
+		"Environment"
+		{
+			"appid"		"394360"
+		}
+	}
+	"x86 Update 3 14.0.24215.0 1"
+	{
+		"Process"		"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared\\_CommonRedist\\vcredist\\2015\\Microsoft Visual C++ 2015 x86.cmd"
+		"Command"		""
+		"description"		"Microsoft VC Redist Package"
+		"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2015"
+		"RunKeyName"		"x86 Update 3 14.0.24215.0"
+		"MinimumHasRunValue"		"1"
+		"ignoreexitcode"		"0"
+		"ValidExitCodes"		"1638"
+		"RunType"		"0"
+		"Sequence"		"2"
+		"Environment"
+		{
+			"appid"		"394360"
+		}
+	}
+	"x64 Update 3 14.0.24215.0 1"
+	{
+		"Process"		"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Steamworks Shared\\_CommonRedist\\vcredist\\2015\\Microsoft Visual C++ 2015 x64.cmd"
+		"Command"		""
+		"description"		"Microsoft VC Redist Package"
+		"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2015"
+		"RunKeyName"		"x64 Update 3 14.0.24215.0"
+		"MinimumHasRunValue"		"1"
+		"ignoreexitcode"		"0"
+		"ValidExitCodes"		"1638"
+		"RunType"		"0"
+		"Sequence"		"3"
+		"Environment"
+		{
+			"appid"		"394360"
+		}
+	}
+}

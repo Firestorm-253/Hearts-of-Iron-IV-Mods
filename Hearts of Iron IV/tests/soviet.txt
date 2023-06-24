@@ -1,0 +1,282 @@
+last_date = "1946.1.1"
+
+tests = {
+
+    SOV_capitulated = {
+        acceptable_fail_rate = 1.0
+
+        fail = {
+            SOV = {
+                OR = {
+                    has_capitulated = yes
+                    exists = no
+                    is_subject = yes
+                }
+            }
+        }
+        success = {
+            date > "1950.1.1"
+        }
+    }
+
+    SOV_rotten_door_was_kicked_in = {
+
+        success = {
+            date < "1944.1.1"
+            SOV = {
+                surrender_progress > 0.10
+            }
+        }
+
+        fail = {
+            date > "1944.1.1"
+        }
+    }
+
+    SOV_survived_until_1945 = {
+
+        success = {
+            date > "1945.1.1"
+        }
+
+        fail = {
+            date < "1945.1.1"
+            SOV = {
+                OR = {
+                    has_capitulated = yes
+                    exists = no
+                }
+            }
+        }
+    }
+
+    SOV_design_anti_tank = {
+
+        success = {
+            date > "1939.1.1"
+            date < "1955.1.1"
+            SOV = { ai_has_role_template = motorized }
+        }
+
+        fail = {
+            date > "1955.1.1"
+        }
+    }
+
+    SOV_design_garrison = {
+
+        success = {
+            date > "1939.1.1"
+            date < "1945.1.1"
+            SOV = { ai_has_role_template = garrison }
+        }
+
+        fail = {
+            date > "1941.1.1"
+        }
+    }
+
+    SOV_has_medium_armor = {
+        acceptable_fail_rate = 0.2
+        success = {
+            date > "1936.1.1"
+            date < "1955.1.1"
+            SOV = {
+                has_equipment = {
+                    medium_tank_chassis > 0
+                }
+            }
+        }
+
+        fail = {
+            date > "1955.1.1"
+        }
+    }
+
+    SOV_has_medium_armor_design = {
+        success = {
+            date > "1936.1.1"
+            date < "1955.1.1"
+            SOV = {
+                has_template_majority_unit = medium_armor
+            }
+        }
+
+        fail = {
+            date > "1955.1.1"
+        }
+    }
+
+    SOV_not_fighting_allies_before_1945 = {
+        success = {
+            date > "1945.1.1"
+        }
+
+        fail = {
+            date < "1945.1.1"
+            SOV = {
+                OR = {
+                    has_war_with = ENG
+                    has_war_with = USA
+                }
+                is_subject = no
+                has_capitulated = no
+            }
+            OR = {
+                ENG = {
+                    has_war_with = JAP #This should be allowed once japan fall.
+                }
+                USA = {
+                    has_war_with = JAP
+                }
+            }
+        }
+    }
+
+    SOV_is_upgrading_manpower_law = {
+        success = {
+            date > "1943.6.1"
+        }
+        acceptable_fail_rate = 0.4
+        fail = {
+            date > "1942.10.1"
+            SOV = {
+                has_manpower < 200000
+                OR = {
+                    has_idea = volunteer_only
+                    has_idea = limited_conscription
+                }
+            }
+        }
+    }
+
+    SOV_loses_moscow_before_1942 = {
+        acceptable_fail_rate = 1.0
+        success = {
+            date > "1942.6.1"
+            219 = { # Moscow
+                is_controlled_by = SOV
+            }
+        }
+
+        fail = {
+            date < "1942.6.1"
+            219 = { # Moscow
+                NOT = { is_controlled_by = SOV }
+            }
+        }
+    }
+
+    SOV_loses_stalingrad_before_1943 = {
+        acceptable_fail_rate = 1.0
+        success = {
+            date > "1943.3.1"
+            217 = { # Stalingrad
+                is_controlled_by = SOV
+            }
+        }
+
+        fail = {
+            date < "1943.3.1"
+            217 = { # Stalingrad
+                NOT = { is_controlled_by = SOV }
+            }
+        }
+    }
+
+    SOV_loses_leningrad_before_1944 = {
+        acceptable_fail_rate = 1.0
+        success = {
+            date > "1944.2.1"
+            195 = { # Leningrad
+                is_controlled_by = SOV
+            }
+        }
+
+        fail = {
+            date < "1944.2.1"
+             195 = { # Leningrad
+                NOT = { is_controlled_by = SOV }
+            }
+        }
+    }
+
+    SOV_retakes_kyiv_by_1944 = {
+        acceptable_fail_rate = 1.0
+        success = {
+            date > "1942.1.1"
+            date < "1944.1.1"
+            202 = { # Kyiv
+                is_controlled_by = SOV
+            }
+            has_global_flag = kyiv_is_lost
+        }
+
+        fail = {
+            date > "1944.1.1"
+            202 = { # Kyiv
+                NOT = { is_controlled_by = SOV }
+            }
+            has_global_flag = kyiv_is_lost
+        }
+    }
+
+    SOV_takes_warsaw_by_1945 = {
+        acceptable_fail_rate = 1.0
+        success = {
+            date < "1945.2.1"
+            10 = { # Warsaw
+                is_controlled_by = SOV
+            }
+        }
+
+        fail = {
+            date > "1945.2.1"
+
+        }
+    }
+
+    SOV_owns_estonia_by_1941 = {
+        acceptable_fail_rate = 0.1
+        success = {
+            date < "1941.1.1"
+            812 = { # Tallinn
+                is_owned_by = SOV
+            }
+        }
+
+        fail = {
+            date > "1941.1.1"
+        }
+    }
+
+
+    SOV_owns_latvia_by_1941 = {
+        acceptable_fail_rate = 0.1
+        success = {
+            date < "1941.1.1"
+            808 = { # Riga
+                is_owned_by = SOV
+            }
+        }
+
+        fail = {
+            date > "1941.1.1"
+        }
+    }
+
+    SOV_owns_Lithuania_by_1941 = {
+        acceptable_fail_rate = 0.1
+        success = {
+            date < "1941.1.1"
+            11 = { # Kaunas
+                is_owned_by = SOV
+            }
+        }
+
+        fail = {
+            date > "1941.1.1"
+        }
+    }
+
+}
